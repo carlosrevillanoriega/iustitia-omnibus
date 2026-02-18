@@ -94,7 +94,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-start gap-2 text-sm text-gray-500">
                                 <FaMapMarkerAlt className="text-lavender-500 mt-0.5 flex-shrink-0" />
-                                <span>Venustiano Carranza, CDMX</span>
+                                <span>Santa Ana Tlacotenco, Milpa Alta, CDMX.</span>
                             </li>
                         </ul>
                     </div>
