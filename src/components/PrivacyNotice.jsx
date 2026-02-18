@@ -17,7 +17,7 @@ export default function PrivacyNotice() {
 
                     <div className="prose prose-sm text-gray-600 space-y-4">
                         <p>
-                            <strong>Elizabeth Fabiola Arellano Galicia</strong>, con domicilio en Venustiano Carranza,
+                            <strong>Elizabeth Fabiola Arellano Galicia</strong>, con domicilio en Santa Ana Tlacotenco, Milpa Alta, CDMX,
                             Ciudad de México, es responsable del tratamiento de los datos personales que usted
                             nos proporcione, los cuales serán protegidos conforme a lo dispuesto por la{' '}
                             <em>Ley Federal de Protección de Datos Personales en Posesión de los Particulares</em>{' '}
