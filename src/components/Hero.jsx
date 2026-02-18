@@ -52,12 +52,12 @@ export default function Hero() {
                                 <FaArrowRight className="text-sm" />
                             </button>
                         </div>
-
+                        <h3>Datos</h3>
                         {/* Trust badges */}
                         <div className="mt-10 flex items-center gap-6 text-sm text-gray-500">
                             <div className="flex items-center gap-2">
                                 <span className="text-lavender-500 text-lg">⚖️</span>
-                                <span>Cédula Profesional</span>
+                                <span>Cuento con Cédula Profesional</span>
                             </div>
                             <div className="w-px h-5 bg-gray-300" />
                             <div className="flex items-center gap-2">
@@ -67,7 +67,7 @@ export default function Hero() {
                             <div className="w-px h-5 bg-gray-300 hidden sm:block" />
                             <div className="hidden sm:flex items-center gap-2">
                                 <span className="text-lavender-500 text-lg">📍</span>
-                                <span>CDMX</span>
+                                <span>Santa Ana Tlacotenco, Milpa alta, CDMX</span>
                             </div>
                         </div>
                     </div>
