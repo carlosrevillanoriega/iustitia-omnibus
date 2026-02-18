@@ -9,8 +9,11 @@ import News from './components/News'
 import Footer from './components/Footer'
 import PrivacyNotice from './components/PrivacyNotice'
 import LegalNotice from './components/LegalNotice'
+import FloatingWhatsApp from './components/FloatingWhatsApp'
 
 export default function App() {
+    <FloatingWhatsApp />
+
     return (
         <div className="min-h-screen">
             <Header />

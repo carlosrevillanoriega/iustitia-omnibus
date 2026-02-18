@@ -1,4 +1,6 @@
 import { FaCalendarAlt, FaArrowRight } from 'react-icons/fa'
+import heroImage from '../assets/elizabeth-hero.jpg'
+
 
 export default function Hero() {
     const scrollTo = (id) => {
@@ -70,24 +72,24 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    {/* Photo Placeholder */}
+                    {/* Photo */}
                     <div className="hidden lg:flex justify-center animate-slide-in-right">
                         <div className="relative">
                             {/* Main photo container */}
-                            <div className="w-80 h-96 rounded-3xl bg-gradient-to-br from-lavender-200 via-lavender-300 to-lavender-400 shadow-2xl shadow-lavender-300/30 flex items-end justify-center overflow-hidden">
-                                <div className="text-center pb-8 px-6">
-                                    <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-lavender-100 flex items-center justify-center">
-                                        <span className="text-5xl">⚖️</span>
-                                    </div>
-                                    <p className="text-white font-serif text-lg font-semibold">Lic. Elizabeth F.</p>
-                                    <p className="text-lavender-100 text-sm">Arellano Galicia</p>
-                                </div>
+                            <div className="relative w-80 h-96 rounded-3xl overflow-hidden shadow-2xl shadow-lavender-300/30">
+                                <img
+                                    src={heroImage}
+                                    alt="Lic. Elizabeth Fabiola Arellano Galicia"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
+
                             {/* Decorative elements */}
                             <div className="absolute -top-4 -right-4 w-24 h-24 bg-lavender-100 rounded-2xl -z-10" />
                             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-lavender-200/50 rounded-2xl -z-10" />
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
